@@ -23,7 +23,7 @@ main {
 }
 .logo {
     margin: 3vh 8vw;
-    width: 300px;
+    width: 450px;
 }
 
 .logo img {
@@ -75,7 +75,7 @@ ul li {
     text-decoration: none;
     color: white;
     position: absolute;
-    bottom: 3%;
+    bottom: 2%;
     left: 32%;
     padding: 1.8vh;
 }

@@ -1,8 +1,11 @@
 @font-face {
     font-family: "Roboto";
-    src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
-
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
 body {
     font-family: "Roboto";
     margin: 0;
@@ -30,6 +33,7 @@ main {
 nav {
     display: flex;
     align-items: center;
+    font-family: "RobotoRegular";
 }
 
 ul {
@@ -77,15 +81,15 @@ ul li {
 }
 
 .btn-paris {
-    background-color: lightseagreen;
+    background-color: rgb(25, 138, 132);
 }
 
 .btn-tokyo {
-    background-color: coral;
+    background-color: rgb(212, 106, 68);
 }
 
 .btn-newyork {
-    background-color: blueviolet;
+    background-color: rgb(90, 27, 150);
 }
 
 h3, p {

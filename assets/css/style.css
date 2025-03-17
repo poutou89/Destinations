@@ -29,20 +29,16 @@ nav {
     align-items: center;
 }
 
-nav img {
-    width: 50%;
-    margin: 1.5vw 15vh;
-    padding: 0 1rem;
-}
-
 ul {
     list-style: none;
     display: flex;
     padding: 0 7vw 0;
 }
+
 ul li {
     width: 6vw;
 }
+
 .container {
     width: 100%;
     max-width: 1280px;
@@ -50,10 +46,6 @@ ul li {
     padding: 0 1rem;
     display: flex;
     gap: 4vw;
-}
-
-#card-box {
-    flex-direction: row;
 }
 
 .photo {
@@ -83,7 +75,6 @@ ul li {
 
 .btn-paris {
     background-color: lightseagreen;
-    background-size: 2px;
 }
 
 .btn-tokyo {

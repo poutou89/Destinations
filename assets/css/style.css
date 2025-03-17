@@ -57,7 +57,7 @@ ul li {
     flex-direction: column;
     border: 2px solid black;
     border-radius: 10px;
-    box-shadow: 3px 3px 6px gray;
+    box-shadow: 4px 4px 6px gray;
     overflow: hidden;
     position: relative;
     width: 100%;

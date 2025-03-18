@@ -95,3 +95,70 @@ ul li {
 h3, p {
     margin: 1rem;
 }
+
+@media screen and (max-width: 769px) {
+    main {
+        margin-top: 2vh;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 2vh;
+        width: 8vh;
+    }
+
+    ul li {
+        width: 10vw;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .container {
+        width: 40%;
+        max-width: inherit;
+        flex-direction: column;
+    }
+
+    .card-content {
+        width: 100%;
+        display: inline-block;
+    }
+    .card-image img {
+        max-width: fit-contents;
+    }
+    .button {
+        padding: 0.6vh;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    body {
+    }
+    header {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center
+        align-content: center;
+    }
+
+    .logo {
+    } 
+
+    .logo img {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 100%;
+        gap: 14vh;
+    }
+
+    .container {
+        width: 80%;
+        max-width: inherit;
+        flex-direction: column;
+    }
+}
